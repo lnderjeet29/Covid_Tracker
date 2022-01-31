@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".FlagBottomSheet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="select Country"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_flag_detail"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp"
+        tools:listitem="@layout/fragment_flag_item_detail" />
+
+
+</LinearLayout>

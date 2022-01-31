@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/covidAllDetailShow">
+
+    <fragment
+        android:id="@+id/covidAllDetailShow"
+        android:name="com.inderjeet.covidtracer.CovidAllDetailShow"
+        android:label="fragment_covid_all_detail_show"
+        tools:layout="@layout/fragment_covid_all_detail_show" >
+        <action
+            android:id="@+id/action_covidAllDetailShow_to_flagBottomSheet"
+            app:destination="@id/flagBottomSheet" />
+    </fragment>
+    <dialog
+        android:id="@+id/flagBottomSheet"
+        android:name="com.inderjeet.covidtracer.FlagBottomSheet"
+        android:label="fragment_flag_bottom_sheet"
+        tools:layout="@layout/fragment_flag_bottom_sheet" />
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android_projects/CovidTracer/app/src/main/res/drawable-v24/ic_placeholder.xml" value="0.1345" />
+        <entry key="..\:/android_projects/CovidTracer/app/src/main/res/drawable/rounded_dialog.xml" value="0.1345" />
+        <entry key="..\:/android_projects/CovidTracer/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+        <entry key="..\:/android_projects/CovidTracer/app/src/main/res/layout/fragment_covid_all_detail_show.xml" value="0.209375" />
+        <entry key="..\:/android_projects/CovidTracer/app/src/main/res/layout/fragment_entity_detail.xml" value="0.209375" />
+        <entry key="..\:/android_projects/CovidTracer/app/src/main/res/layout/fragment_flag_bottom_sheet.xml" value="0.1953125" />
+        <entry key="..\:/android_projects/CovidTracer/app/src/main/res/layout/fragment_flag_item_detail.xml" value="0.209375" />
+        <entry key="..\:/android_projects/CovidTracer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1345" />
+        <entry key="..\:/android_projects/CovidTracer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1345" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
